@@ -3,6 +3,7 @@
 [![Live Dashboard](https://img.shields.io/badge/🔗-Live%20Dashboard-blue)](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing)
 
 ---
+**An automated Google Sheets dashboard transforming a 9K+ row static dataset into a self-service reporting tool. Built with QUERY + Apps Script automation to save 50+ analyst hours annually and enable faster decision-making.**
 
 ## 📌 Overview
 Most sales teams waste hours on manual reporting.  
@@ -19,7 +20,7 @@ It demonstrates **end-to-end data analytics skills**:
 ---
 
 ## 📈 Business Impact
-- **50+ Analyst Hours Saved Annually** – Replaced repetitive manual reporting with full automation.  
+- **~1 hour/week per analyst → saving 50+ hours/year across the team.** – Replaced repetitive manual reporting with full automation.  
 - **Faster Decisions** – Managers instantly compare regional performance and reallocate resources.  
 - **Single Source of Truth** – Centralized sales data aligns all teams on consistent metrics.  
 
@@ -102,10 +103,7 @@ function sendSalesReport(regionName = "Central") {
 4. (For replication) Copy the sheet → enable Apps Script trigger → edit email recipient.  
 
 #### 🔮 Extensions & Scalability
-
-Analytical Extensions → Extend into YoY growth, profitability ratios, predictive sales forecasting.
-
-Enterprise Scalability → Migrate backend to BigQuery + Looker Studio for large datasets.
+Framework designed to scale into advanced analytics (YoY growth, profitability ratios, predictive forecasting) and enterprise-level backends (BigQuery + Looker Studio).
 
 **Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving
 
