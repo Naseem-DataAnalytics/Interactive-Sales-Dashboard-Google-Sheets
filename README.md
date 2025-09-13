@@ -1,6 +1,6 @@
 # 🚀 Interactive Sales & Operations Dashboard | Google Sheets
 
-[![Live Dashboard](https://img.shields.io/badge/🔗-Live%20Dashboard-blue)](your-shareable-google-sheet-link-goes-here)
+[![Live Dashboard](https://img.shields.io/badge/🔗-Live%20Dashboard-blue)](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing)
 
 ---
 
