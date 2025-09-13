@@ -94,7 +94,7 @@ function sendSalesReport() {
 
 #### 🛠 How to Use
 
-1. Open the [Live Dashboard](your-link).  
+1. Open the [Live Dashboard](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing).  
 2. Use the dropdown filter to switch regions.  
 3. KPIs and charts update instantly.  
 4. (For replication) Copy the sheet → enable Apps Script trigger → edit email recipient.  
