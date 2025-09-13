@@ -20,24 +20,27 @@ It demonstrates **end-to-end data analytics skills**:
 
 ---
 
-## 📈 Business Impact
-- **~50+ analyst hours/year saved (~$X,000 in productivity gains).** – Replaced repetitive manual reporting with full automation.  
-- **Faster Decisions** – Managers instantly compare regional performance and reallocate resources.  
-- **Single Source of Truth** – Centralized sales data aligns all teams on consistent metrics.  
+## 📈 Business Impact 
+- **~50+ analyst hours/year saved (~$X,000 in productivity gains)** → Manual reporting eliminated.  
+- **Faster decisions** → Managers instantly compare regional performance and reallocate resources.  
+- **Single source of truth** → Centralized sales data aligns all teams on consistent metrics.  
 
 ---
 
-## ✨ Key Features
-Interactive Regional Filter → “Managers instantly drill down to their region without needing analysts.”
-
-Real-Time KPIs → “Always up-to-date numbers, no refresh needed.”  
+## ✨ Key Features  
+- **Interactive Regional Filter** → Managers drill down to their region without analyst support.  
+- **Real-Time KPIs** → Always up-to-date metrics (e.g., *Total Sales*, *Total Profit*).  
+- **Dynamic Visualizations** → Charts automatically redraw to reflect filters and trends.  
+- **“No-Touch” Email Reports** → Automated weekly updates delivered without manual effort.  
 
 ---
 
-## 💻 Technical Highlights
--Leveraged QUERY to replicate SQL-like analytics directly inside Sheets — no external database required.
+## 💻 Technical Highlights  
+- **SQL-like analytics with `QUERY`** → Database-style queries directly inside Google Sheets.  
+- **Lightweight ETL with Apps Script** → Automated transformations with time-driven triggers.  
+- **Programmatic KPI calculations** → Metrics updated dynamically for dashboards + email reports.  
+- **Automated distribution** → Reports delivered directly to inboxes.  
 
--Automated workflows with Apps Script triggers, creating a lightweight ETL inside Google Sheets. 
 
 <details>
 <summary>📂 Tech Appendix (Click to Expand)</summary>
@@ -89,22 +92,29 @@ function sendSalesReport(regionName = "Central") {
 ```
 </details>
 
+---
+
 ### 📸 Dashboard Preview
 
 ![Dashboard Screenshot](https://raw.githubusercontent.com/Naseem-DataAnalytics/Interactive-Sales-Dashboard-Google-Sheets/main/Dashboard%20Screenshot.png)
 
 *(Click “Live Dashboard” above to explore interactivity)*  
 
+---
+
 #### 🛠 How to Use
 
 1. Open the [Live Dashboard](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing).  
 2. Use the dropdown filter to switch regions.  
 3. KPIs and charts update instantly.  
-4. (For replication) Copy the sheet → enable Apps Script trigger → edit email recipient.  
+4. (For replication) Copy the sheet → enable Apps Script trigger → edit email recipient.
+
+---   
 
 #### 🔮 Extensions & Scalability
 Framework designed to scale into advanced analytics (YoY growth, profitability ratios, predictive forecasting) and enterprise-level backends (BigQuery + Looker Studio).
 
+---
 **Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving
 
 
