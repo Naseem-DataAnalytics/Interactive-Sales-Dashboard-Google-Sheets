@@ -107,7 +107,6 @@ Analytical Extensions → Extend into YoY growth, profitability ratios, predicti
 
 Enterprise Scalability → Migrate backend to BigQuery + Looker Studio for large datasets.
 
-#### 🛠 Skills Demonstrated
 **Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving
 
 
