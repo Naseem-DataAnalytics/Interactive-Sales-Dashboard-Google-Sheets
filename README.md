@@ -1,9 +1,10 @@
-# 🚀 Interactive Sales & Operations Dashboard | Google Sheets
+# 🚀 Automated Sales & Operations Dashboard | Google Sheets
 
 [![Live Dashboard](https://img.shields.io/badge/🔗-Live%20Dashboard-blue)](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing)
 
 ---
-**An automated Google Sheets dashboard transforming a 9K+ row static dataset into a self-service reporting tool. Built with QUERY + Apps Script automation to save 50+ analyst hours annually and enable faster decision-making.**
+**Transformed a static 9K+ row dataset into a self-service reporting tool that saves 50+ analyst hours annually and enables faster regional decision-making.
+Built end-to-end with Google Sheets (QUERY) and Apps Script automation, replacing repetitive manual reporting with a scalable, interactive dashboard.**
 
 ## 📌 Overview
 Most sales teams waste hours on manual reporting.  
@@ -20,7 +21,7 @@ It demonstrates **end-to-end data analytics skills**:
 ---
 
 ## 📈 Business Impact
-- **~1 hour/week per analyst → saving 50+ hours/year across the team.** – Replaced repetitive manual reporting with full automation.  
+- **~50+ analyst hours/year saved (~$X,000 in productivity gains).** – Replaced repetitive manual reporting with full automation.  
 - **Faster Decisions** – Managers instantly compare regional performance and reallocate resources.  
 - **Single Source of Truth** – Centralized sales data aligns all teams on consistent metrics.  
 
@@ -35,9 +36,9 @@ It demonstrates **end-to-end data analytics skills**:
 ---
 
 ## 💻 Technical Highlights
-- Built with advanced **`QUERY` functions** acting as a SQL-like engine inside Google Sheets.  
-- Automated reporting via **Google Apps Script** with time-driven triggers.  
-- Programmatic metric calculation + automated email distribution.  
+-Leveraged QUERY to replicate SQL-like analytics directly inside Sheets — no external database required.
+
+-Automated workflows with Apps Script triggers, creating a lightweight ETL inside Google Sheets. 
 
 <details>
 <summary>📂 Tech Appendix (Click to Expand)</summary>
