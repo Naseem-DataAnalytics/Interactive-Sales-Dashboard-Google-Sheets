@@ -14,29 +14,29 @@ It demonstrates **end-to-end data analytics skills**:
 - Visualization design  
 - Workflow automation  
 
-✅ **Result** → A scalable reporting tool that saves an estimated **50+ analyst hours annually** while empowering managers with **instant, self-service insights**.
+✅ **Result** → A scalable reporting tool that saves ~1 hour/week per analyst (~50+ hours/year) while empowering managers with **instant, self-service insights**.
 
 ---
 
 ## 📈 Business Impact
-- **50+ Analyst Hours Saved Annually** – Eliminated repetitive manual reporting through full automation.  
-- **Faster Decision-Making** – Enabled managers to instantly compare regional performance and reallocate resources more effectively.  
-- **Single Source of Truth** – Centralized sales data for better alignment across teams.  
+- **50+ Analyst Hours Saved Annually** – Replaced repetitive manual reporting with full automation.  
+- **Faster Decisions** – Managers instantly compare regional performance and reallocate resources.  
+- **Single Source of Truth** – Centralized sales data aligns all teams on consistent metrics.  
 
 ---
 
 ## ✨ Key Features
-- **Interactive Regional Filter** – Central dropdown menu to filter the entire dashboard.  
+- **Interactive Regional Filter** – Central dropdown to filter the entire dashboard.  
 - **Real-Time KPIs** – Metrics like *Total Sales* and *Total Profit* update instantly.  
 - **Dynamic Visualizations** – Auto-redrawing line chart for sales trends.  
-- **“No-Touch” Email Reports** – Automated scripts deliver weekly regional updates without manual effort.  
+- **“No-Touch” Email Reports** – Automated scripts deliver weekly updates without manual effort.  
 
 ---
 
 ## 💻 Technical Highlights
 - Built with advanced **`QUERY` functions** acting as a SQL-like engine inside Google Sheets.  
 - Automated reporting via **Google Apps Script** with time-driven triggers.  
-- Programmatic metric calculation + automated distribution of reports.  
+- Programmatic metric calculation + automated email distribution.  
 
 <details>
 <summary>📂 Tech Appendix (Click to Expand)</summary>
@@ -56,7 +56,6 @@ It demonstrates **end-to-end data analytics skills**:
  ORDER BY YEAR(C) 
  LABEL YEAR(C) 'Year', SUM(R) 'Total Sales'")
 ```
-
 ### Google Apps Script for Automation
 ```
 /**
@@ -87,18 +86,27 @@ function sendSalesReport() {
 ```
 </details>
 
+### 📸 Dashboard Preview
+
+![Dashboard Screenshot](link-to-screenshot.png)
+
+*(Click “Live Dashboard” above to explore interactivity)*  
+
+#### 🛠 How to Use
+
+1. Open the [Live Dashboard](your-link).  
+2. Use the dropdown filter to switch regions.  
+3. KPIs and charts update instantly.  
+4. (For replication) Copy the sheet → enable Apps Script trigger → edit email recipient.  
+
 #### 🔮 Extensions & Scalability
-Analytical Extensions → Add YoY growth, profitability ratios, or predictive sales modeling.
+
+Analytical Extensions → Extend into YoY growth, profitability ratios, predictive sales forecasting.
 
 Enterprise Scalability → Migrate backend to BigQuery + Looker Studio for large datasets.
 
 #### 🛠 Skills Demonstrated
-
-Data Analytics • Dashboard Design • SQL (QUERY) • Automation • Google Apps Script • Business Problem-Solving
-
-#### 📸 Dashboard Preview
-
-(Insert screenshot of your dashboard here)
+**Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving
 
 
 
