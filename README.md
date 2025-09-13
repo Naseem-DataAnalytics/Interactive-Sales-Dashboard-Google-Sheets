@@ -6,7 +6,8 @@
 **Transformed a static 9K+ row dataset into a self-service reporting tool that saves 50+ analyst hours annually and enables faster regional decision-making.
 Built end-to-end with Google Sheets (QUERY) and Apps Script automation, replacing repetitive manual reporting with a scalable, interactive dashboard.**
 
-## 📌 Overview
+## 📌 Overview  
+
 Most sales teams waste hours on manual reporting.  
 This project eliminates that bottleneck by turning a static **9,000+ row dataset** into an **interactive, automated dashboard** that empowers instant decision-making.  
 
@@ -16,7 +17,10 @@ It demonstrates **end-to-end data analytics skills**:
 - Visualization design  
 - Workflow automation  
 
-✅ **Result** → A scalable reporting tool that saves ~1 hour/week per analyst (~50+ hours/year) while empowering managers with **instant, self-service insights**.
+✅ **Result** → A scalable reporting tool that saves ~1 hour/week per analyst (~50+ hours/year) while empowering managers with **instant, self-service insights**.  
+
+**Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving  
+
 
 ---
 
@@ -115,7 +119,13 @@ function sendSalesReport(regionName = "Central") {
 Framework designed to scale into advanced analytics (YoY growth, profitability ratios, predictive forecasting) and enterprise-level backends (BigQuery + Looker Studio).
 
 ---
-**Skills:** Data Analytics | Dashboard Design | SQL (QUERY) | Google Apps Script | Automation | Business Problem-Solving
+#### 🧑‍💻 Skills Demonstrated  
+- **Spreadsheet Engineering** → Designed interactive dashboards using Google Sheets.  
+- **SQL-like Querying** → Used QUERY function to perform advanced analytics inside Sheets.  
+- **Automation Scripting** → Built workflows with Google Apps Script triggers.  
+- **ETL & Data Processing** → Created lightweight pipelines for cleaning and transforming raw data.  
+- **Business Communication** → Automated email reports to stakeholders with actionable insights.  
+
 
 
 
