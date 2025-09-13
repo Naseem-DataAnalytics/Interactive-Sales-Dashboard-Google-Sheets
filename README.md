@@ -59,30 +59,32 @@ It demonstrates **end-to-end data analytics skills**:
 ### Google Apps Script for Automation
 ```
 /**
- * Calculates total sales for the Central region 
+ * Calculates total sales for a given region
  * and sends a summary report via email.
  */
-function sendSalesReport() {
-  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Raw Data");
+function sendSalesReport(regionName = "Central") {
+  const SHEET_NAME = "Raw Data";
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
   const data = sheet.getDataRange().getValues();
-  let centralSales = 0;
+  let regionSales = 0;
 
-  for (let i = 1; i < data.length; i++) {
+  for (let i = 1; i < data.length; i++) { // skip header row
     const row = data[i];
     const region = row[12]; // Column M
-    const sales = row[17];  // Column R
-    if (region === "Central") {
-      centralSales += sales;
+    const sales = Number(row[17]) || 0; // Column R
+    if (region === regionName) {
+      regionSales += sales;
     }
   }
 
   const recipient = "your_email@example.com";
-  const subject = "Automated Weekly Sales Report: Central Region";
-  const body = "This is your automated weekly report.\n\n" +
-               "Total sales for the Central region are: $" + centralSales.toFixed(2);
+  const subject = `Automated Weekly Sales Report: ${regionName} Region`;
+  const body = `This is your automated weekly report.\n\n` +
+               `Total sales for the ${regionName} region are: $${regionSales.toFixed(2)}`;
 
   MailApp.sendEmail(recipient, subject, body);
 }
+
 ```
 </details>
 
