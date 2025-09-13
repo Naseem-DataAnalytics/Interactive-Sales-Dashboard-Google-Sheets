@@ -1,4 +1,4 @@
-# 🚀 Automated Sales & Operations Dashboard | Google Sheets
+# 🚀Automated Sales & Operations Dashboard (9K+ rows → Instant Insights)| Google Sheets
 
 [![Live Dashboard](https://img.shields.io/badge/🔗-Live%20Dashboard-blue)](https://docs.google.com/spreadsheets/d/1uYhdP-HLEO9rGaw8a_adH9PUFRhoJjzh5_HuPwkFbCU/edit?usp=sharing)
 
@@ -28,10 +28,9 @@ It demonstrates **end-to-end data analytics skills**:
 ---
 
 ## ✨ Key Features
-- **Interactive Regional Filter** – Central dropdown to filter the entire dashboard.  
-- **Real-Time KPIs** – Metrics like *Total Sales* and *Total Profit* update instantly.  
-- **Dynamic Visualizations** – Auto-redrawing line chart for sales trends.  
-- **“No-Touch” Email Reports** – Automated scripts deliver weekly updates without manual effort.  
+Interactive Regional Filter → “Managers instantly drill down to their region without needing analysts.”
+
+Real-Time KPIs → “Always up-to-date numbers, no refresh needed.”  
 
 ---
 
