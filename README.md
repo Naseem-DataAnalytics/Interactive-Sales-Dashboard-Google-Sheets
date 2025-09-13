@@ -88,7 +88,7 @@ function sendSalesReport() {
 
 ### 📸 Dashboard Preview
 
-![Dashboard Screenshot](link-to-screenshot.png)
+![Dashboard Screenshot](https://raw.githubusercontent.com/Naseem-DataAnalytics/Interactive-Sales-Dashboard-Google-Sheets/main/Dashboard%20Screenshot.png)
 
 *(Click “Live Dashboard” above to explore interactivity)*  
 
