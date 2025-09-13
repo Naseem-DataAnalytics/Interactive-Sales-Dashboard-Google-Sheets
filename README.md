@@ -24,10 +24,11 @@ It demonstrates **end-to-end data analytics skills**:
 
 ---
 
-## 📈 Business Impact 
+## 📈 Business Impact  
 - **~50+ analyst hours/year saved (~$X,000 in productivity gains)** → Manual reporting eliminated.  
 - **Faster decisions** → Managers instantly compare regional performance and reallocate resources.  
 - **Single source of truth** → Centralized sales data aligns all teams on consistent metrics.  
+
 
 ---
 
